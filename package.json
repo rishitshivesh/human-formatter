@@ -1,8 +1,8 @@
 {
-  "name": "human-format",
-  "version": "1.2.0",
+  "name": "human-formatter",
+  "version": "1.0.1",
   "license": "ISC",
-  "description": "Converts a number to/from a human readable string: `1337` ↔ `1.34kB`",
+  "description": "Converts a number to/from a human readable string: `69420` ↔ `69.42K`",
   "keywords": [
     "byte",
     "bytes",
@@ -61,5 +61,8 @@
       "prettier --ignore-unknown --write"
     ],
     "*.{,c,m}js": "eslint --ignore-pattern '!*'"
+  },
+  "publishConfig": {
+    "@rishitshivesh:registry": "https://npm.pkg.github.com"
   }
 }
