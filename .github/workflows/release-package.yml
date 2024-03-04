@@ -1,4 +1,4 @@
-name: Node.js Package
+name: Release to human-formatter to NPM
 
 on:
   release:
