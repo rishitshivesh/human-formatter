@@ -3,6 +3,9 @@ name: Release to human-formatter to NPM
 on:
   release:
     types: [created]
+  push:
+    branches:
+      - release
 
 jobs:
   build:
